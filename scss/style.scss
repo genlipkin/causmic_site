@@ -1213,10 +1213,9 @@ header {
 	margin-left:50px;
 }
 
-.application_buttons{
-
-}
-
+html {
+	scroll-behavior: smooth;
+  }
 
 #about {
 	scroll-behavior: smooth;
@@ -1225,3 +1224,9 @@ header {
 #students {
 	scroll-behavior: smooth;
 }
+
+#footer{
+	display: block;
+	background-color: gray;
+}
+

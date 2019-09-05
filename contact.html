@@ -24,8 +24,7 @@
     <header role="banner">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand " href="index.html">CAUSMIC</a>
-          
+          <a class="navbar-brand " href="index.html">Causmic</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,20 +33,11 @@
             <ul class="navbar-nav pl-md-5 ml-auto">
               
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="index.html#about">About</a>
               </li>
-  
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="services.html">Students</a>
-                  <a class="dropdown-item" href="services.html">Nonprofits</a>
-                  <a class="dropdown-item" href="services.html">Universities</a>
-                </div>
-              </li> -->
              
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </li>
             </ul>
 
@@ -56,58 +46,99 @@
         </div>
       </nav>
     </header>
-
-    <section id="content4" class="inner-w3layouts-wrap">
-        <h3 class="head-w3ls"> Get In Touch</h3>
-        <form name="contact-form" class="contact-form" method="post" action="https://formspree.io/genlipkin@gmail.com">
-            <div class="row">
-                <div class="col-6 con-gd">
-                    <div class="form-group">
-                        <p>Name *</p>
-                        <input type="text" class="form-control" id="name" placeholder="" name="name" required="">
-                    </div>
-                    <div class="form-group">
-                        <p>Email *</p>
-                        <input type="email" class="form-control" id="email" placeholder="" name="email" required="">
-                    </div>
-
-                </div>
-                <div class="col-6 con-gd">
-                    <div class="form-group">
-                        <p>Send a Message *</p>
-                        <textarea name="Message" placeholder="" required=""></textarea>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="form-group">
-
-                <button type="submit" class="btn btn-default">Submit</button>
-            </div>
-
-        </form>
-        <ul class="w3pvt_social_list list-unstyled mt-4">
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100014896449271" class="w3layouts-icon">
-                    <span class="fa fa-facebook-f"></span>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/genna-lipkin/" class="w3layouts-icon">
-                    <span class="fa fa-linkedin"></span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/genlipkin" class="w3layouts-icon">
-                    <span class="fa fa-github"></span>
-                </a>
-            </li>
-            
-        </ul>
-    </section>
     <!-- END header -->
 
+    <div class="top-shadow"></div>
+
+    <div class="inner-page">
+    <div class="slider-item" style="background-image: url('images/astronomy.jpg');">
+        
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
+              <h1 class="pt-5"><span>Contact Us</span></h1>
+              <p class="mb-5 w-75 pl-0">Interested in joining the Causmic team? <br />Have a question we can answer? Drop us a line below.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- END slider -->
+    </div>
+
+    <section class="section border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-5 order-2">
+            <form action="https://formspree.io/genlipkin@gmail.com" method="post">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name" style="color:#194f2b">Name *</label>
+                  <input type="text" id="name" class="form-control " required="">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="phone" style="color:#194f2b">Organization/University *</label>
+                  <input type="text" id="phone" class="form-control " required="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email" style="color: #194f2b">Email *</label>
+                  <input type="email" id="email" class="form-control " required="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message" style="color: #194f2b">What would you like to tell us? *</label>
+                  <textarea name="message" id="message" class="form-control " cols="30" rows="8" required=""></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group" >
+                
+                      <input type="submit" value="Send Message" class="btn btn-success px-3 py-3" >
+
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 order-2 mb-5">
+            <div class="row justify-content-right">
+              <div class="col-md-8 mx-auto contact-form-contact-info">
+                
+                <p class="d-flex">
+                  <span class="ion-ios-location icon mr-5" style="color: #3ab763"></span>
+                  <span>516 East 80th St #21, <br/> NY, NY 10075</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-ios-telephone icon mr-5" style="color: #3ab763"></span>
+                  <span>+1 (917)-359-6968</span>
+                </p>
+
+                <p class="d-flex">
+                  <span class="ion-android-mail icon mr-5" style="color: #3ab763"></span>
+                  <span>causmicapp@gmail.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+
+      <div class="footer-copyright text-center py-3">Causmic © 2019</div>
+
+    </div>
+
+    <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
