@@ -1,0 +1,13 @@
+.home-slider.home-slider .owl-dots {
+    bottom: 10px !important;
+}
+
+#mid-section{
+    padding: 3em 0 !important;
+}
+
+header{
+    position: relative;
+    top: 0 !important;
+    background-color: black;
+}
