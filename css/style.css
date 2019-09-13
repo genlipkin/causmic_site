@@ -6052,7 +6052,18 @@ button.bg-dark:focus {
   width: 50% !important; }
 
 .w-75 {
-  width: 75% !important; }
+  width: 75% !important; 
+  
+
+}
+
+.slide-text{
+  text-shadow: black 2px 2px 10px;
+}
+
+.slide-text-bold {
+  text-shadow: black 2px 0px 8px;
+}
 
 .w-100 {
   width: 100% !important; }
